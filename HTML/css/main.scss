@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+margin: 0;
+font-family: 'Roboto';
+font-size: 18px;
+height: 100vh;
+}
+
+.header {
+
+    margin: 0;
+    background-color: rgba(197, 219, 225, 0.253);
+    height: 45px;
+    
+}
+
+.container {
+
+    .start-container {
+        margin: 0 auto;
+        text-align: center;
+        .logo{
+            width: 130px;
+            height: 150px;
+
+        }
+        h1 {
+            color: #242B67;
+            margin: 1em 0;
+        }
+        p{
+            color: #242B67;
+            line-height: 1.2rem;
+        }
+
+    }
+    .bservice-container{
+        background-color: rgba(197, 219, 225, 0.253);
+        text-align: center;
+        .bserviceBild{
+            width: 130px;
+            height: 150px;
+
+        }
+        h2 {
+            color: #242B67;
+            margin: 1em 0;
+        }
+        p{
+            color: #242B67;
+            line-height: 1.2rem;
+        }
+
+    }
+    .tservice-container{
+        text-align: center;
+        .tserviceBild{
+            width: 130px;
+            height: 150px;
+
+        }
+        h2 {
+            color: #242B67;
+            margin: 1em 0;
+        }
+        p{
+            color: #242B67;
+            line-height: 1.2rem;
+        }
+
+    }
+    .tplanung-container{
+        text-align: center;
+        background-color: rgba(197, 219, 225, 0.253);
+        .tplanungBild{
+            width: 130px;
+            height: 150px;
+
+        }
+        h2 {
+            color: #242B67;
+            margin: 1em 0;
+        }
+        p{
+            color: #242B67;
+            line-height: 1.2rem;
+        }
+
+    }
+    .CTA-container{
+        color: #242B67;
+        text-align: center;
+    }
+
+}
