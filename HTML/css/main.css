@@ -12,16 +12,33 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background-color: rgba(197, 219, 225, 0.25);
   height: 25px;
   color: #242B67;
   font-size: 8px;
-  text-align: center;
   padding: 0.3em;
-  display: grid;
-  grid-template-columns: 10% 80% auto;
+  text-align: center;
+
 }
 
+.phoneIcon{
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.8em 1em 1em 1em;
+  color: #242B67;
+}
+.menuIcon{
+  width: 2.5em;
+  height: 2em;
+  padding: 0.6em 1em 1em 10em;
+  color: #242B67;
+}
+
+
+
+/*
 .header .phoneIcon{
   padding: 1em;
   width: 1.1em;
@@ -47,7 +64,7 @@ body {
 
 .header .right{
   display: grid;
-}
+}*/
 
 /* Inhaltsblock 1*/
 .container .start-container {
