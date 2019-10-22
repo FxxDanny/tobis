@@ -37,11 +37,11 @@ body {
 }
 
 .container .start-container p {
-  padding-left: 1em;
-  text-align: left;
+  padding: 0.7em;
+  text-align: center;
   color: #242B67;
   line-height: 1.2rem;
-  padding-bottom: 0.8em;
+  
 }
 
 .container button {
@@ -58,14 +58,17 @@ font-size: 13px;
 
 /* Inhaltsblock 2*/
 .container .bservice-container {
-  padding: 5px;
+  padding: 0.3em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
   background-color: rgba(197, 219, 225, 0.25);
   text-align: center;
+  
 }
 
 .container .bservice-container .bserviceBild {
-  width: 130px;
-  height: 150px;
+  width: 100px;
+  height: 120px;
 }
 
 .container .bservice-container h2 {
@@ -74,20 +77,31 @@ font-size: 13px;
 }
 
 .container .bservice-container p {
+  padding: 0.7em;
+  text-align: left;
   color: #242B67;
   line-height: 1.2rem;
+}
+
+.container .bservice-container li {
+  padding: 0.7em;
+  text-align: left;
+  color: #242B67;
+  line-height: 0.7em;
 }
 
 
 /* Inhaltsblock 3*/
 .container .tservice-container {
-  padding: 5px;
+  padding: 0.3em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
   text-align: center;
 }
 
 .container .tservice-container .tserviceBild {
-  width: 130px;
-  height: 150px;
+  width: 100px;
+  height: 120px;
 }
 
 .container .tservice-container h2 {
@@ -96,6 +110,9 @@ font-size: 13px;
 }
 
 .container .tservice-container p {
+  padding: 0.7em;
+  padding-bottom: 0.9em;
+  text-align: left;
   color: #242B67;
   line-height: 1.2rem;
 }
@@ -103,14 +120,16 @@ font-size: 13px;
 
 /* Inhaltsblock 4*/
 .container .tplanung-container {
-  padding: 5px;
+  padding: 0.3em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
   text-align: center;
   background-color: rgba(197, 219, 225, 0.25);
 }
 
 .container .tplanung-container .tplanungBild {
-  width: 130px;
-  height: 150px;
+  width: 100px;
+  height: 120px;
 }
 
 .container .tplanung-container h2 {
@@ -119,6 +138,8 @@ font-size: 13px;
 }
 
 .container .tplanung-container p {
+  padding: 0.7em;
+  text-align: left;
   color: #242B67;
   line-height: 1.2rem;
 }
@@ -126,7 +147,9 @@ font-size: 13px;
 
 /* Inhaltsblock 5*/
 .container .CTA-container {
-  padding: 5px;
+  padding: 0.3em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
   color: #242B67;
   text-align: center;
 }
