@@ -14,10 +14,11 @@
                 <img src="images/phoneIcon.png" alt="TobisOffice IconPhone" class="phoneIcon">
                 <p>+49 176 30453831</p>
                 <nav>
-                        <img src="images/menuIcon.png" alt="TobisOffice IconPhone" class="menuIcon">
+                <img src="images/menuIcon.png" alt="TobisOffice IconPhone" class="menuIcon">
                 </nav>
                       
     </header>
+    
     <div class="container">
            
         <div class="start-container">
@@ -70,18 +71,18 @@
     <script>
     window.onscroll = function() {myFunction()};
 
-// Get the header
-var header = document.getElementById("Test")
+    // Get the header
+    let header = document.getElementById("Test")
 
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
         } else {
-    header.classList.remove("sticky");
+        header.classList.remove("sticky");
         }
     }
     </script>

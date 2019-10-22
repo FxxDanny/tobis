@@ -13,16 +13,15 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(197, 219, 225, 0.25); 
+  background-color: #f2f7f9; 
   color: #242B67;
 }
 .sticky {
   position: fixed;
   width: 100%;
-  background-color:#742748;
-  color: white;
+  ´
+  
 }
-
 
 .phoneIcon{
   width: 1.2em;
@@ -40,6 +39,7 @@ header {
 .container .start-container {
   margin: 0 auto;
   text-align: center;
+  padding-top: 0em;
   padding-bottom: 2.1em;    /* Abstand Inhaltsblock - Button - neuer Inhaltsblock */
 }
 
