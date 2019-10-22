@@ -16,7 +16,7 @@ height: 100vh;
 }
 
 .container {
-
+       
     .start-container {
         margin: 0 auto;
         text-align: center;
@@ -35,7 +35,9 @@ height: 100vh;
         }
 
     }
-    .bservice-container{
+    .bservice-container {
+        
+
         background-color: rgba(197, 219, 225, 0.253);
         text-align: center;
         .bserviceBild{
@@ -53,7 +55,7 @@ height: 100vh;
         }
 
     }
-    .tservice-container{
+    .tservice-container {
         text-align: center;
         .tserviceBild{
             width: 130px;
@@ -70,7 +72,7 @@ height: 100vh;
         }
 
     }
-    .tplanung-container{
+    .tplanung-container {
         text-align: center;
         background-color: rgba(197, 219, 225, 0.253);
         .tplanungBild{
