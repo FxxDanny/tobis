@@ -12,11 +12,42 @@ body {
 }
 
 .header {
-  margin: 0;
   background-color: rgba(197, 219, 225, 0.25);
   height: 25px;
+  color: #242B67;
+  font-size: 8px;
+  text-align: center;
+  padding: 0.3em;
+  display: grid;
+  grid-template-columns: 10% 80% auto;
 }
 
+.header .phoneIcon{
+  padding: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  color: #242B67;
+}
+.header .menuIcon{
+  padding: 0.5em;
+  width: 2em;
+  height: 2em;
+  color: #242B67;
+}
+
+.header .left{
+  padding: 0;
+  display: grid;
+}
+
+.header .middle{
+  padding-left: 0;
+  display: grid;
+}
+
+.header .right{
+  display: grid;
+}
 
 /* Inhaltsblock 1*/
 .container .start-container {
@@ -26,18 +57,18 @@ body {
 }
 
 .container .start-container .logo {
-  padding-top: 10px;
-  width: 85px;
-  height: 100px;
+  width: 8em;
+  height: 10em;
+  padding: 0.5em;
 }
 
 .container .start-container h1 {
   color: #242B67;
-  margin: 1em 0;
+  padding: 0.1em;
 }
 
 .container .start-container p {
-  padding: 0.7em;
+  padding: 0.3em;
   text-align: center;
   color: #242B67;
   line-height: 1.2rem;
@@ -67,8 +98,8 @@ font-size: 13px;
 }
 
 .container .bservice-container .bserviceBild {
-  width: 100px;
-  height: 120px;
+  width: 8em;
+  height: 10em;
 }
 
 .container .bservice-container h2 {
@@ -100,8 +131,8 @@ font-size: 13px;
 }
 
 .container .tservice-container .tserviceBild {
-  width: 100px;
-  height: 120px;
+  width: 8em;
+  height: 10em;
 }
 
 .container .tservice-container h2 {
@@ -128,8 +159,8 @@ font-size: 13px;
 }
 
 .container .tplanung-container .tplanungBild {
-  width: 100px;
-  height: 120px;
+  width: 8em;
+  height: 10em;
 }
 
 .container .tplanung-container h2 {
