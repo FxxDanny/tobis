@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-h1 {font-size: 1.7em;}
 h2 {font-size: 1.3em;}
 
 
@@ -11,60 +10,31 @@ body {
   height: 100vh;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(197, 219, 225, 0.25);
-  height: 25px;
+  background-color: rgba(197, 219, 225, 0.25); 
   color: #242B67;
-  font-size: 8px;
-  padding: 0.3em;
-  text-align: center;
-
 }
+.sticky {
+  position: fixed;
+  width: 100%;
+  background-color:#742748;
+  color: white;
+}
+
 
 .phoneIcon{
-  width: 1.5em;
-  height: 1.5em;
-  padding: 0.8em 1em 1em 1em;
-  color: #242B67;
-}
-.menuIcon{
-  width: 2.5em;
-  height: 2em;
-  padding: 0.6em 1em 1em 10em;
-  color: #242B67;
-}
-
-
-
-/*
-.header .phoneIcon{
+  width: 1.2em;
+  height: 1.2em;
   padding: 1em;
-  width: 1.1em;
-  height: 1.1em;
-  color: #242B67;
 }
-.header .menuIcon{
-  padding: 0.5em;
+
+.menuIcon{
   width: 2em;
-  height: 2em;
-  color: #242B67;
+  height: 1.2em;
+  padding: 1em;
 }
-
-.header .left{
-  padding: 0;
-  display: grid;
-}
-
-.header .middle{
-  padding-left: 0;
-  display: grid;
-}
-
-.header .right{
-  display: grid;
-}*/
 
 /* Inhaltsblock 1*/
 .container .start-container {
@@ -82,6 +52,7 @@ body {
 .container .start-container h1 {
   color: #242B67;
   padding: 0.1em;
+  font-size: 1.6em;
 }
 
 .container .start-container p {
@@ -176,7 +147,7 @@ font-size: 13px;
 }
 
 .container .tplanung-container .tplanungBild {
-  width: 8em;
+  width: 9em;
   height: 10em;
 }
 
