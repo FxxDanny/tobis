@@ -10,11 +10,46 @@ body {
   height: 100vh;
 }
 
-.topnav{
+nav{
   overflow: hidden;
   background-color: #f2f7f9;
 }
 
+nav ul {
+list-style: none;
+padding-left: 1em;
+}
+
+nav li {
+  float:left;
+  color: #242B67;
+}
+
+nav li.telefonnummer{
+  font-size: 1.2em;
+}
+
+nav li .LeistungenNav{
+  display: none;
+}
+nav li .PreiseNav{
+  display: none;
+}
+nav li .KontaktNav{
+  display: none;
+}
+nav .icon {
+  float: right;
+  color: #242B67;
+  padding-right: 1em;
+}
+
+nav li:hover{
+  background-color: #242B67;
+  color: #f2f7f9;
+}
+
+/*
 .topnav a{
   color: #242B67;
   float: left;
@@ -38,13 +73,14 @@ body {
 .topnav .KontaktNav {
   display: none;
 }
+*/
 
-.topnav .icon {
+
+.topnav a.icon {
   float: right;
+  display: block;
   padding-right: 1em;
 }
-
-.topnav.responsive {position: relative;}
 
 .topnav.responsive .icon {
   position: absolute;
@@ -57,12 +93,14 @@ body {
   text-align: left;
 }
 
+/*
 header {
   display: flex;
   justify-content: space-between;
   background-color: #f2f7f9; 
   color: #242B67;
-}
+}*/
+
 .sticky {
   position: fixed;
   width: 100%;

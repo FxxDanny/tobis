@@ -11,17 +11,19 @@
 
 
 <body>
-
-    <div class="topnav" id="myTopnav">
-        <a>+49 176 30453831</a>
-        <a class="LeistungenNav">Leistungen</a>
-        <a class="PreiseNav">Preise</a>
-        <a class="KontaktNav">Kontakt</a>
+    <nav id="myTopnav">
+        <ul>
+            <li class="telefonnummer"><a>+49 176 30453831</a></li>
+            <li><a href ="#" class="LeistungenNav">Leistungen</a></li>
+            <li><a href ="#" class="PreiseNav">Preise</a></li>
+            <li><a href ="#" class="KontaktNav">Kontakt</a></li>
+        </ul>
         <a href="javascript:void(0);" class="icon" onclick="myFunctionNav() ">
-            <i class="fa fa-bars"></i>
+                <i class="fa fa-bars"></i>
         </a>
-    </div>
-    
+
+    </nav>
+
     <div class="container">
            
         <div class="start-container">
@@ -70,8 +72,9 @@
 
 
     <script>
-
+/*
     function myFunctionNav() {
+
     var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
             x.className += " responsive";
@@ -79,7 +82,7 @@
             x.className = "topnav";
         }
     }
-
+*/
 
     window.onscroll = function() {myFunction()};
     // Get the header
@@ -92,6 +95,7 @@
     function myFunction() {
         if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
+
         } else {
         header.classList.remove("sticky");
         }
