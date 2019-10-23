@@ -173,6 +173,16 @@ font-size: 13px;
   text-align: center;
 }
 
+.footer{
+  background-color: #f2f7f9;
+  display: flex; 
+  justify-content: space-between;
+  color: #242B67;
+  padding: 0em 4em 0em 4em;
+
+
+}
+
 
 @media(min-width: )
 /*# sourceMappingURL=main.css.map */
