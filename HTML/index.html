@@ -6,19 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
 <body>
-    <header id="Test">     
-                <img src="images/phoneIcon.png" alt="TobisOffice IconPhone" class="phoneIcon">
-                <p>+49 176 30453831</p>
-                <nav>
-                <img src="images/menuIcon.png" alt="TobisOffice IconPhone" class="menuIcon">
-                </nav>
-                      
-    </header>
-    <div class="topnav" id="myTopnav"></div>
+
+    <div class="topnav" id="myTopnav">
+        <a>+49 176 30453831</a>
+        <a class="LeistungenNav">Leistungen</a>
+        <a class="PreiseNav">Preise</a>
+        <a class="KontaktNav">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunctionNav() ">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     
     <div class="container">
            
@@ -68,10 +70,20 @@
 
 
     <script>
-    window.onscroll = function() {myFunction()};
 
+    function myFunctionNav() {
+    var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+
+    window.onscroll = function() {myFunction()};
     // Get the header
-    let header = document.getElementById("Test")
+    let header = document.getElementById("myTopnav")
 
     // Get the offset position of the navbar
     var sticky = header.offsetTop;
@@ -84,6 +96,9 @@
         header.classList.remove("sticky");
         }
     }
+
+
+    
     </script>
 </body>
 </html>
