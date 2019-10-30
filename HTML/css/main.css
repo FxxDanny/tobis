@@ -86,6 +86,7 @@ margin: 5px 20px 0 0;
 header nav ul li {
   float: left;
   margin-left: 20px;
+  font-size: 19px;
 }
 
 
@@ -112,6 +113,13 @@ background: white
 #terminplanung{
   background: #f2f7f9;
 }
+#telefonservice {
+  margin-top: -25px;
+}
+
+#cta{
+  margin-top: -25px;
+}
 
 
 /****** CTA *****/
@@ -133,6 +141,22 @@ background: white
 
 #cta button:hover{
   opacity: 0.8;
+}
+
+/******* Footer *******/
+#footer {
+  min-height: 65px;
+  background-color: #f2f7f9;
+}
+
+#footer #Copyright li {
+ float: left;
+ margin: 21px 20px;
+}
+
+#footer #rechtliches li {
+  float: right;
+  margin: 21px 20px;
 }
 /*
 
