@@ -41,6 +41,14 @@ h1, h2 {
 h1 {
   font-size: 84px;
 }
+h3{
+  margin: 50px auto;
+  font-size: 80px;
+}
+h4{
+  margin: 0;
+  font-size: 60px;
+}
 
 p {
 font-size: 40px;
@@ -144,7 +152,39 @@ background: white
   line-height: 1.5em;
 }
 
+#leistungen button{
+margin-top: 100px;
+}
 
+/*** Variante 2***/
+
+#leist{
+  width: 93%;
+  margin: 0 auto 0 auto;
+}
+
+#leist img{
+  width: 100%;
+  margin: 0;
+}
+
+#leist ul{
+  padding:0;
+}
+
+#leist ul li {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+#leist ul li p {
+  margin: 0;
+  color: #242B67;
+  text-align: left;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  width: 90%;
+}
 /************************ büroservice/terminplanung/telefonservice ***********************+*/
 
 #telefonservice {
